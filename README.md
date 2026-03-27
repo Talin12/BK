@@ -18,3 +18,15 @@ Follow these steps to run the project locally on your machine:
    ```bash
    git clone <your-repo-url>
    cd bk-agarwal-ca
+
+2. **Install dependencies:**
+
+   ```Bash
+   npm install
+
+3. **Start the development server:**
+
+   ```Bash
+   npm run dev
+   
+The app will typically be available at http://localhost:3000 or http://localhost:5173.
