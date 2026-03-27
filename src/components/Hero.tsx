@@ -19,7 +19,7 @@ export default function Hero() {
         {/* Dark Gradient Overlay */}
         <div className="absolute inset-0 hero-overlay" />
       </div>
-      
+
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full">
         <div className="max-w-3xl">
           <motion.div
@@ -34,7 +34,7 @@ export default function Hero() {
                 Excellence in Audit & Taxation
               </span>
             </div>
-            
+
             <h1 className="text-6xl md:text-8xl font-bold text-white leading-[1.05] tracking-tight mb-8">
               Simplifying Tax <span className="text-white/30">&</span> Compliance for Growing Businesses
             </h1>
@@ -56,7 +56,7 @@ export default function Hero() {
             className="flex flex-col sm:flex-row items-start sm:items-center space-y-6 sm:space-y-0 sm:space-x-8"
           >
             <a
-              href="https://wa.me/yournumber"
+              href="https://wa.me/919535500655"
               target="_blank"
               rel="noopener noreferrer"
               className="group relative inline-flex items-center justify-center px-10 py-5 bg-accent text-charcoal font-bold rounded-sm overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98]"
