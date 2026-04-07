@@ -23,7 +23,7 @@ export default function About() {
                 Our Legacy
               </span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-8">
+            <h2 className="text-3xl lg:text-4xl xl:text-5xl font-bold text-white leading-tight tracking-tight mb-8">
               A decade and a half of financial clarity & trust.
             </h2>
             <p className="text-white/60 text-lg leading-relaxed mb-10 font-light">
@@ -39,9 +39,9 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-100px" }}
                 transition={{ duration: 0.6, delay: idx * 0.1 }}
-                className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm flex flex-col justify-center"
+                className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-sm flex flex-col justify-center"
               >
-                <div className="text-5xl font-bold text-accent mb-2">{stat.value}</div>
+                <div className="text-4xl sm:text-5xl font-bold text-accent mb-2">{stat.value}</div>
                 <div className="text-[11px] font-bold uppercase tracking-widest text-white/40">{stat.label}</div>
               </motion.div>
             ))}

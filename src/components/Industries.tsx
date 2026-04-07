@@ -54,7 +54,7 @@ export default function Industries() {
           </motion.h2>
         </div>
 
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           {industries.map((ind, idx) => (
             <motion.div
               key={ind.title}
@@ -62,7 +62,7 @@ export default function Industries() {
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.5, delay: idx * 0.1 }}
-              className="bg-white/[0.02] border border-white/5 rounded-2xl p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:bg-white/[0.04] hover:border-accent/30 group"
+              className="bg-white/[0.02] border border-white/5 rounded-2xl p-6 sm:p-8 flex flex-col items-center justify-center text-center transition-all duration-300 hover:bg-white/[0.04] hover:border-accent/30 group"
             >
               <div className="transform group-hover:-translate-y-1 transition-transform duration-300">
                 {ind.icon}

@@ -35,7 +35,7 @@ export default function Hero() {
               </span>
             </div>
 
-            <h1 className="text-6xl md:text-8xl font-bold text-white leading-[1.05] tracking-tight mb-8">
+            <h1 className="text-5xl sm:text-6xl md:text-8xl font-bold text-white leading-[1.05] tracking-tight mb-8">
               Simplifying Tax <span className="text-white/30">&</span> Compliance for Growing Businesses
             </h1>
           </motion.div>
@@ -59,7 +59,7 @@ export default function Hero() {
               href="https://wa.me/919535500655"
               target="_blank"
               rel="noopener noreferrer"
-              className="group relative inline-flex items-center justify-center px-10 py-5 bg-accent text-charcoal font-bold rounded-sm overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98]"
+              className="group relative inline-flex items-center justify-center w-full sm:w-auto px-10 py-4 sm:py-5 bg-accent text-charcoal font-bold rounded-sm overflow-hidden transition-all hover:scale-[1.02] active:scale-[0.98]"
             >
               <div className="absolute inset-0 bg-white translate-y-full group-hover:translate-y-0 transition-transform duration-300 ease-out" />
               <span className="relative flex items-center uppercase tracking-widest text-xs">
