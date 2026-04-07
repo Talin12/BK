@@ -29,13 +29,13 @@ export default function Navbar() {
           <img 
             src="https://res.cloudinary.com/duk9coqow/image/upload/v1774577822/Screenshot_2026-03-27_at_7.40.54_AM-removebg-preview_uypeq3.png" 
             alt="B K Agarwal & Co Logo" 
-            className="h-12 md:h-14 w-auto object-contain drop-shadow-sm filter brightness-110" 
+            className="h-10 sm:h-12 md:h-14 w-auto object-contain drop-shadow-sm filter brightness-110" 
           />
           <div className="flex flex-col justify-center translate-y-[2px]">
-            <span className="text-xl md:text-2xl font-bold tracking-tight text-white leading-none mb-1">
+            <span className="text-lg sm:text-xl md:text-2xl font-bold tracking-tight text-white leading-none mb-1">
               B K AGARWAL <span className="text-accent">&</span> CO
             </span>
-            <span className="text-[9px] md:text-[10px] uppercase tracking-[0.3em] text-white/50 font-bold">
+            <span className="text-[8px] sm:text-[9px] md:text-[10px] uppercase tracking-[0.3em] text-white/50 font-bold">
               Chartered Accountants
             </span>
           </div>

@@ -10,13 +10,13 @@ export default function Contact() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
-          className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 rounded-[2rem] p-8 md:p-16 backdrop-blur-md relative overflow-hidden"
+          className="bg-gradient-to-br from-white/10 to-transparent border border-white/10 rounded-[2rem] p-6 sm:p-8 md:p-16 backdrop-blur-md relative overflow-hidden"
         >
           <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-accent to-transparent opacity-50" />
           
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
             <div>
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-6 tracking-tight">
                 Let's discuss your financial strategy.
               </h2>
               <p className="text-white/60 mb-12 text-lg font-light max-w-md leading-relaxed">
@@ -56,7 +56,7 @@ export default function Contact() {
               </div>
             </div>
 
-            <div className="bg-charcoal/50 rounded-3xl p-8 border border-white/5">
+            <div className="bg-charcoal/50 rounded-3xl p-6 md:p-8 border border-white/5">
               <form className="flex flex-col space-y-4">
                 <input 
                   type="text" 

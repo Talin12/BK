@@ -46,7 +46,7 @@ export default function Services() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-bold text-white tracking-tight"
+            className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white tracking-tight"
           >
             Comprehensive Financial Solutions
           </motion.h2>
@@ -60,7 +60,7 @@ export default function Services() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, margin: "-50px" }}
               transition={{ duration: 0.6, delay: idx * 0.1 }}
-              className="bg-white/[0.02] hover:bg-white/[0.04] border border-white/5 hover:border-accent/30 rounded-2xl p-8 transition-all duration-300 group"
+              className="bg-white/[0.02] hover:bg-white/[0.04] border border-white/5 hover:border-accent/30 rounded-2xl p-6 sm:p-8 transition-all duration-300 group"
             >
               <div className="transform group-hover:scale-110 group-hover:-translate-y-1 transition-transform duration-300">
                 {service.icon}

@@ -41,7 +41,7 @@ export default function Values() {
                 Core Values
               </span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-8">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white leading-tight tracking-tight mb-8">
               What sets us apart.
             </h2>
             <p className="text-white/60 text-lg leading-relaxed mb-8 font-light">
@@ -57,7 +57,7 @@ export default function Values() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true, margin: "-50px" }}
                 transition={{ duration: 0.6, delay: idx * 0.1 }}
-                className="bg-white/5 border border-white/10 rounded-2xl p-8 backdrop-blur-sm group"
+                className="bg-white/5 border border-white/10 rounded-2xl p-6 sm:p-8 backdrop-blur-sm group"
               >
                 <div className="flex items-center mb-4 space-x-4">
                   <CheckCircle2 className="w-6 h-6 text-accent" />
