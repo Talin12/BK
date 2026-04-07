@@ -28,5 +28,5 @@ Follow these steps to run the project locally on your machine:
 
    ```Bash
    npm run dev
-   
+
 The app will typically be available at http://localhost:3000 or http://localhost:5173.

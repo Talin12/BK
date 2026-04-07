@@ -5,6 +5,11 @@
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
+import About from "./components/About";
+import Services from "./components/Services";
+import Industries from "./components/Industries";
+import Values from "./components/Values";
+import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
 export default function App() {
@@ -15,6 +20,11 @@ export default function App() {
 
       <Navbar />
       <Hero />
+      <About />
+      <Services />
+      <Industries />
+      <Values />
+      <Contact />
       <Footer />
     </div>
   );
